@@ -49,7 +49,7 @@ public class AppTest
 
         service.saveStudent("1a","ana",935);
 
-        assertTrue(service.saveStudent("1a","bogdan",935)==1);
+        assertTrue(service.saveStudent("1a","bogdan",935)==0);
 
 
     }
