@@ -101,6 +101,6 @@ public class WBTTest {
 
         Service service = new Service(fileRepository1, fileRepository2, fileRepository3);
         service.saveTema("t1","aa",10,9);
-        assertTrue(service.saveTema("t1","aa",10,9)==1);
+        assertTrue(service.saveTema("t1","aa",10,9)==0);
     }
 }
